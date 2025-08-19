@@ -1,0 +1,22 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    padding-top: 60px; /* Adjust based on navbar height */
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .nav-link i {
+    font-size: 1.1em; /* Adjust as needed for desired size */
+    vertical-align: middle;
+    margin-right: 5px;
+}
